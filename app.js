@@ -38,7 +38,7 @@ app.post("/" , function( req , res ) {
 
     const option = {
         method: 'POST',
-        auth: 'smdsurfing@gmail.com:a5487ff9a5778db96bf00eb3be906577b-us1'
+        auth: 'smdsurfing@gmail.com:5487ff9a5778db96bf00eb3be906577b-us1'
     };
     
    const request = https.request(url , option , function(resp) {
